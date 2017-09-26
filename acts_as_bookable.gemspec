@@ -26,8 +26,8 @@ Gem::Specification.new do |gem|
     gem.post_install_message = File.read('UPGRADING.md')
   end
 
-  gem.add_dependency 'ice_cube_chosko', '~> 0.1.0'
-   gem.add_runtime_dependency 'activerecord', '~> 5.1', '>= 5.1.2'
+  gem.add_dependency 'ice_cube_chosko', '~> 0.2'
+  gem.add_runtime_dependency 'activerecord', '~> 5.1', '>= 5.1.2'
 
   gem.add_development_dependency 'sqlite3', '~> 1.3'
   gem.add_development_dependency 'mysql2', '~> 0.3.7'
